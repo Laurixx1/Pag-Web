@@ -12,22 +12,23 @@ botonesDiv.innerHTML += `
 // Crear una función llamada "suma", que reciba como parámetros dos números enteros y devuelva como resultado
 // otro número entero que sea la suma de ambos.
 function suma() {
-    const n = parseInt(prompt("Suma:"));
     let suma = 0;
-    for (let i = 0; i < n; i++) {
-        suma += parseFloat(prompt(`Número ${i + 1}:`));
+    const n = 2;
+    for (let i = 1; i <= n; i++) {
+        const num = parseInt(prompt(`Escribe el número ${i}:`));
+        suma += num;
     }
-    resultadoDiv.innerHTML = `Suma: ${suma},`;
+    resultadoDiv.innerHTML = `La suma es: ${suma},`;
 }
 
 
 // Crear una función llamada "division", que reciba como parámetros dos números enteros y devuelva como
 // resultado un número real, que sea el resultado de dividir el primer número entre el segundo (con decimales). 
 function division() {
-    const num1 = parseInt(prompt("Introduce un números:"));
+    const num1 = parseInt(prompt("Introduce un número"));
     if (num1 > 0) {
-        const num2 = parseInt(prompt("Introduce otro número:"));
-        resultadoDiv.innerHTML = `division: ${num1 / num2}`
+        const num2 = parseInt(prompt("Introduce otro número"));
+        resultadoDiv.innerHTML = `La división es: ${num1 / num2}`
     }
 }
 
@@ -38,8 +39,16 @@ function letraRepetida() {
     let letra = prompt("Introduce una letra");
     let veces = parseInt(prompt("Introduce un número"));
     resultadoDiv.InnerHTML = "";
-    for (let i = 1; i <= veces; i++) {
+    for (let i = 0; i < veces; i++) {
         resultadoDiv.innerHTML += letra;
     }
+    
+}
+
+
+// Crear una función llamada "rotulo", que tome como parámetro una cadena de texto, no devuelva ningún valor,
+// y escriba en pantalla ese texto centrado (suponiendo una anchura de pantalla de 80 letras) y en la línea 
+// siguiente escriba guiones para que el rótulo parezca subrayado (tantos guiones como letras formen la palabra). 
+function rotulo() {
     
 }
