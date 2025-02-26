@@ -214,29 +214,33 @@ switch ("m"){
 // bisiesto que es 29 días. 
 Mirar ejercicio
 
-let dd = 10
-let mm = 12
-let aaaa = 2001
+let dd = 30
+let mm = 2
+let aaaa = 2020
 
 if (dd <= 31 && mm == 1,3,5,7,8,10,12 && aaaa >0<= 9999){
  console.log(dd,mm,aaaa)
-  } if (dd => 28 && mm != 2 && aaaa != 9999){
+  } else if (dd > 28 && mm === 2 && aaaa == 9999){
     console.log ("Error")
-  } if (dd => 30 && mm == 4,6,9,11 && aaaa >0<= 9999){
+  } else if (dd => 30 && mm == 4,6,9,11 && aaaa >0<= 9999){
  console.log(dd,mm,aaaa)
 }
 
 
-// Ejercicio #13 Escribir un programa que permita determinar la cantidad total a pagar por una llamada telefónica de N minutos (introducido por el usuario), teniendo en cuenta lo siguiente: • Las llamadas de 5 minutos o menos tienen un coste de 10 BsF. • Cada minuto adicional a partir de los 5 primeros cuesta 2 BsF
-let N = 6
+// Ejercicio #13 Escribir un programa que permita determinar la cantidad total a pagar por una llamada telefónica de N minutos 
+// (introducido por el usuario), teniendo en cuenta lo siguiente: • Las llamadas de 5 minutos o menos tienen un coste de 10 BsF. 
+// • Cada minuto adicional a partir de los 5 primeros cuesta 2 BsF
+Mirar ejercicio
 
-switch (N){
-  case 1,2,3,4,5:
-    console.log("10BsF")
-    break;
-  case 6>10:
-    console.log("10BsF")
-}
+let minutos = 10
+let costo = 10
+
+if (minutos <= 5) {
+  console.log(`${costo}BsF`)
+  } else if (minutos > 5) {
+    console.log(`${costo*2}BsF`)
+  }
+
 
 
 // Hacer el número 23 al final
