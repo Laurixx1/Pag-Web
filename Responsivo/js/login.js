@@ -7,5 +7,5 @@ function loginUsuatio(){
 
   alert('iniciando sesión');
 
-  window.location.href =
+  window.location.href = 'index.html';
 }
