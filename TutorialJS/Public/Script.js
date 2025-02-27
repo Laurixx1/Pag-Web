@@ -50,5 +50,23 @@ function letraRepetida() {
 // y escriba en pantalla ese texto centrado (suponiendo una anchura de pantalla de 80 letras) y en la línea 
 // siguiente escriba guiones para que el rótulo parezca subrayado (tantos guiones como letras formen la palabra). 
 function rotulo() {
-    
+    const texto = prompt("Escribe tu texto"); //const y let se usan para lo mismo
+    let guiones = "-";
+    let veces = (80 - texto.length)/2; {
+        resultadoDiv.innerHTML = guiones.repeat(veces) + texto + guiones.repeat(veces);
+    }
+            
 }
+
+
+// Crea dos funciones "solucionRC1" y "solucionRC2" que devuelvan las dos raíces de una ecuación de segundo
+// grado. Además, deberás crear una función "existeSolucionRC", que devuelva un 1 si la raíz cuadrada tiene
+// solución, o un 0, si no la tiene. 
+function solucionRC1 () {
+    const x = ( -b ± sqrt(b2 - 4ac) )/2·a;
+
+    }
+    return Math.sqrt(numero1)
+}
+console.log(solucionRC1(numero1))
+function solucionRC2 ();
