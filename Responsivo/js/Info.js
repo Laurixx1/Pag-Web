@@ -212,33 +212,30 @@ switch ("m"){
 // • Dependiendo del mes que sea, el día debe estar dentro de los límites válidos. Los meses que tienen 31 días
 // son 1, 3, 5, 7, 8, 10 y 12. Los meses de 30 días son 4, 6, 9 y 11. El mes de 28 días es 2, excepto en un año
 // bisiesto que es 29 días. 
-Mirar ejercicio
-
 let dd = 30
 let mm = 2
 let aaaa = 2020
 
-if (dd <= 31 && mm == 1,3,5,7,8,10,12 && aaaa >0<= 9999){
+if (dd <= 31 && (mm == 1 || mm == 3 || mm == 5 || mm == 7 || mm == 8 || mm == 10 || mm == 12) && aaaa > 0 && aaaa <= 9999){
  console.log(dd,mm,aaaa)
-  } else if (dd > 28 && mm === 2 && aaaa == 9999){
+  } else if (dd > 28 && mm == 2 && aaaa > 0 && aaaa <= 9999){
     console.log ("Error")
-  } else if (dd => 30 && mm == 4,6,9,11 && aaaa >0<= 9999){
+  } else if (dd => 30 && (mm == 4 || mm == 6 || mm == 9 || mm == 11) && aaaa >0 && aaaa <= 9999){
  console.log(dd,mm,aaaa)
 }
+
 
 
 // Ejercicio #13 Escribir un programa que permita determinar la cantidad total a pagar por una llamada telefónica de N minutos 
 // (introducido por el usuario), teniendo en cuenta lo siguiente: • Las llamadas de 5 minutos o menos tienen un coste de 10 BsF. 
 // • Cada minuto adicional a partir de los 5 primeros cuesta 2 BsF
-Mirar ejercicio
-
-let minutos = 10
+let minutos = 6
 let costo = 10
 
 if (minutos <= 5) {
   console.log(`${costo}BsF`)
   } else if (minutos > 5) {
-    console.log(`${costo*2}BsF`)
+    console.log(`${costo+(2*(minutos-5))}BsF`)
   }
 
 
