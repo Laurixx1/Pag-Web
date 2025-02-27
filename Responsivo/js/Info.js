@@ -144,6 +144,17 @@ else {
   console.log("es impar")
 }
 
+
+// Ejercicio #2
+let numeroentero = 20
+
+if (numeroentero > 0){
+  console.log("positivo")
+} else if (numeroentero < 0){
+  console.log("negativo")
+}
+
+
 // Ejercicio #3
 let numero1 = 2
 
@@ -155,18 +166,50 @@ if (numero1 >= 0){
   console.log(suma, resta, producto);
 }
 
+
+// Ejercicio #4
+let entero1 = 2
+let entero2 = 3
+
+if (entero1 > entero2){
+  console.log("El primero número es mayor")
+}else if (entero2 > entero1){
+  console.log("El segundo número es mayor")
+}else if (entero1 === entero2){
+  console.log("Ambos números son iguales")
+}
+
+
 // Ejercicio #5 
 let numero2 = 21
 let numero3 = 33
 let numero4 = 1
 
-if (numero2 >= numero3 && numero2 >= numero4){
-  console.log("Mayor")
-} else if (numero3 >= numero2 && numero3 >= numero4){
-  console.log ("Mayor")
-} else if (numero4 >= numero2 && numero4 >= numero3){
-    console.log("Mayor")
+if (numero2 > numero3 && numero2 > numero4){
+  console.log("Número 2 es mayor")
+} else if (numero3 > numero2 && numero3 > numero4){
+  console.log ("Número 3 es mayor")
+} else if (numero4 > numero2 && numero4 > numero3){
+    console.log("Número 4 es mayor")
   }
+
+
+// Ejercicio #6
+let numentero1 = 5
+let numentero2 = 10
+let numentero3 = -20
+let numentero4 = 1
+
+if (numentero1 > numentero2 && numentero1 > numentero3 && numentero1 > numentero4){
+  console.log("Primer número es mayor")
+} else if (numentero2 > numentero1 && numentero2 > numentero3 && numentero2 > numentero4){
+  console.log("Segundo número es mayor")
+  } else if (numentero3 > numentero2 && numentero3 > numentero1 && numentero3 > numentero4){
+    console.log("Tercer número es mayor")
+  } else if (numentero4 > numentero2 && numentero4 > numentero3 && numentero4 > numentero1){
+    console.log("Cuarto número es mayor")
+  }
+  
 
 // Ejercicio #7
 let temperatura = 25
