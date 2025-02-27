@@ -63,7 +63,7 @@ function rotulo() {
 // grado. Además, deberás crear una función "existeSolucionRC", que devuelva un 1 si la raíz cuadrada tiene
 // solución, o un 0, si no la tiene. 
 function solucionRC1 () {
-    const x = (( -b ± sqrt(b2 - 4ac) )/2*a);
+    const x = (( -b ± sqrt(b2 - 4ac))/2*a);
 
     }
     return Math.sqrt(numero1)

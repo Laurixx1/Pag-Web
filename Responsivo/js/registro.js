@@ -8,20 +8,21 @@ function registroUsuario(){
     // Obtenemos los valores de los campos del formulario:
     console.log('Registrando usuario');
 
-    let nombres = document.getElementById('nombre').value;
-    let apellidos = document.getElementById('apellidos').value;
-    let genero = document.getElementById('genero').value;
-    let email = document.getElementById('correoemail').value;
-    let email2 = document.getElementById('confirmacorreo').value;
-    let fecha_nace = document.getElementById('fechanace').value;
-    let departamento = document.getElementById('departamento').value;
-    let municipio = document.getElementById('municipio').value;
-    let telefono = document.getElementById('telefono').value;
-    let password = document.getElementById('passusuario').value;
-    let password2 = document.getElementById('confirmapass').value;
-    let etnia = document.getElementById('etnia').value;
-    let vulnerabilidades = document.getElementById('vulnerabilidades').value;
-    let estrato = document.getElementById('estrato').value;
+    let nombres = document.getElementById('name').value;
+    let apellidos = document.getElementById('lastname').value;
+    let telefono = document.getElementById('teléfono').value;
+    let celular = document.getElementById('celular').value;
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    let repeatpassword = document.getElementById('repeatpassword').value;
+    let ethnia = document.getElementById('ethnia').value
+    let genero = document.getElementById('genre').value;
+    let direccion = document.getElementById('address').value;
+    let pais = document.getElementById('country').value;
+    let departamento = document.getElementById('department').value;
+    let cuidad = document.getElementById('city').value;
+    let edad = document.getElementById('age').value;
+    let fechanacimiento = document.getElementById('borndate').value;
 
     let correo = "";
     let contrasena = "";
