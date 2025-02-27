@@ -59,6 +59,23 @@ function rotulo() {
 }
 
 
+// function rotulo(){
+//     let rotulo = 'hola';
+//     let ancho = 40;
+//     let largo_rotulo = rotulo.length;
+
+//     ifn(){
+//     }
+//     let mitad = (ancho -largo_rotulo)/2;
+//     let caracter ='-';
+//     let linea ='';
+//     for (let i = 0; i < mitad; i++){
+//         linea += caracter;
+//     }
+//     etiquetaDiv.innerHTML = linea + rotulo + linea + '<hr>';
+// }
+
+
 // Crea dos funciones "solucionRC1" y "solucionRC2" que devuelvan las dos raíces de una ecuación de segundo
 // grado. Además, deberás crear una función "existeSolucionRC", que devuelva un 1 si la raíz cuadrada tiene
 // solución, o un 0, si no la tiene. 
