@@ -205,13 +205,7 @@ switch ("m"){
 }
 
 
-// Ejercicio #12 Solicitar al usuario una fecha (dd:mm:aaaa) y comprobar si es correcta. Para que una fecha sea correcta es
-//necesario:
-// • El año debe ser mayor que cero.
-// • El mes debe estar entre 1 y 12.
-// • Dependiendo del mes que sea, el día debe estar dentro de los límites válidos. Los meses que tienen 31 días
-// son 1, 3, 5, 7, 8, 10 y 12. Los meses de 30 días son 4, 6, 9 y 11. El mes de 28 días es 2, excepto en un año
-// bisiesto que es 29 días. 
+// Ejercicio #12
 let dd = 30
 let mm = 2
 let aaaa = 2020
@@ -226,9 +220,7 @@ if (dd <= 31 && (mm == 1 || mm == 3 || mm == 5 || mm == 7 || mm == 8 || mm == 10
 
 
 
-// Ejercicio #13 Escribir un programa que permita determinar la cantidad total a pagar por una llamada telefónica de N minutos 
-// (introducido por el usuario), teniendo en cuenta lo siguiente: • Las llamadas de 5 minutos o menos tienen un coste de 10 BsF. 
-// • Cada minuto adicional a partir de los 5 primeros cuesta 2 BsF
+// Ejercicio #13
 let minutos = 6
 let costo = 10
 
@@ -238,6 +230,10 @@ if (minutos <= 5) {
     console.log(`${costo+(2*(minutos-5))}BsF`)
   }
 
+
+  // Ejercicio #14 El dueño de una papelería desea un programa que le indique el precio de venta de un artículo dado. El precio se calcula de acuerdo 
+  // con la siguiente fórmula: PVP = precio_coste + ganancia. Donde la ganancia será: • El 15% si el precio de coste es inferior Bs. 3. 
+  // • 50 céntimos si el precio de coste está entre Bs. 3 y Bs. 6. • El 25% si el precio de coste supera los Bs. 6. 
 
 
 // Hacer el número 23 al final
