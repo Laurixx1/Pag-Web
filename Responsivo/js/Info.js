@@ -209,7 +209,7 @@ if (numentero1 > numentero2 && numentero1 > numentero3 && numentero1 > numentero
   } else if (numentero4 > numentero2 && numentero4 > numentero3 && numentero4 > numentero1){
     console.log("Cuarto número es mayor")
   }
-  
+
 
 // Ejercicio #7
 let temperatura = 25
@@ -221,6 +221,18 @@ if (temperatura < 0){
 } else if (temperatura > 100){
   console.log("estado gaseoso")
 }
+
+
+// Ejercicio #8
+let bisiesto = 2020
+
+if (bisiesto/4 || bisiesto/400){
+  console.log("El año es bisiesto")
+} else if (bisiesto/100){
+  console.log("El año no es bisiesto")
+}
+
+
 
 // Ejercicio #11
 let monday = "m"
