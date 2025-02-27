@@ -135,9 +135,9 @@ console.log(variable_texto)
 
 /////////       EJERCICIOS       /////////////////////////
 // Ejercicio #1
-let numero = 20
+let num = 20
 
-if (numero % 1 == 0){
+if (num % 1 == 0){
   console.log("es par")
 }
 else {
