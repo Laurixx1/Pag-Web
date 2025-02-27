@@ -20,7 +20,7 @@ function registroUsuario(){
     let direccion = document.getElementById('address').value;
     let pais = document.getElementById('country').value;
     let departamento = document.getElementById('department').value;
-    let cuidad = document.getElementById('city').value;
+    let ciudad = document.getElementById('city').value;
     let edad = document.getElementById('age').value;
     let fechanacimiento = document.getElementById('borndate').value;
 
@@ -43,16 +43,18 @@ function registroUsuario(){
     // Creamos el usuario en el arreglo:
     usuario.push(nombres);
     usuario.push(apellidos);
+    usuario.push(celular);
+    usuario.push(email);
+    usuario.push(password);
+    usuario.push(repeatpassword);
+    usuario.push(ethnia);
     usuario.push(genero);
-    usuario.push(correo);
-    usuario.push(contrasena);
-    usuario.push(fecha_nace);
+    usuario.push(direccion);
+    usuario.push(pais);
     usuario.push(departamento);
-    usuario.push(municipio);
-    usuario.push(telefono);
-    usuario.push(etnia);
-    usuario.push(vulnerabilidades);
-    usuario.push(estrato);
+    usuario.push(ciudad);
+    usuario.push(edad);
+    usuario.push(fechanacimiento);
 
     alert(usuario);
 
