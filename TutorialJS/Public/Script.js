@@ -80,10 +80,48 @@ function rotulo() {
 // grado. Además, deberás crear una función "existeSolucionRC", que devuelva un 1 si la raíz cuadrada tiene
 // solución, o un 0, si no la tiene. 
 function solucionRC1 () {
-    const x = (( -b ± sqrt(b2 - 4ac))/2*a);
+     let ecuacion1 = a;
+     let ecuacion2 = b;
+     let ecuacion3 = c;
+     let operacion1 = sqrt(b2 - 4ac);
+     let operacion2 = -b + || -;
+     let operacion3 = /2*a
+    if ()
+    (( -b ± sqrt(b2 - 4ac))/2*a);
 
     }
     return Math.sqrt(numero1)
 
-console.log(solucionRC1(numero1))
-function solucionRC2 ();
+// console.log(solucionRC1(numero1))
+// function solucionRC2 ();
+
+
+// function solucionRC1 () {
+//     const x = (( -b ± sqrt(b2 - 4ac))/2*a);
+
+//     }
+//     return Math.sqrt(numero1)
+
+// console.log(solucionRC1(numero1))
+// function solucionRC2 ();
+
+
+function solucionRC1 () {
+     let a = parseInt(prompt("Introduce un número"));
+     let b = parseInt(prompt("Introduce otro número"));
+     let c = parseInt(prompt("Introduce otro número"));
+     let resultado = x;
+    
+     if ()
+    return ((b+math.sqrt(b**2-4*a*c))/2*a);
+} resultadoDiv.innerHTML = resultado
+
+
+
+
+
+
+function raizcubica(){
+    let numero = prompt("Ingresa un número");
+    resultadoDiv.innerHTML =`resultado es: ${numero**(1/3)}`
+}
